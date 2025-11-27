@@ -1,0 +1,34 @@
+{
+    "keyboard_name": "ida",
+    "manufacturer": "tomasr8",
+    "maintainer": "tomasr8",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "mousekey": true,
+        "extrakey": true,
+        "console": false,
+        "command": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["F4", "F5"],
+        "rows": ["F6", "F7"]
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1}
+            ]
+        }
+    }
+}
